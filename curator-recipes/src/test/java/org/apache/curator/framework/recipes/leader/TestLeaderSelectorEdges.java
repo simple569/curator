@@ -42,7 +42,6 @@ import java.util.concurrent.TimeUnit;
 /**
  * Test cases designed after CURATOR-45
  */
-@Test(groups = CuratorTestBase.zk35Group)
 public class TestLeaderSelectorEdges extends BaseClassForTests
 {
     private final Logger log = LoggerFactory.getLogger(getClass());
